@@ -1,0 +1,11 @@
+.gallery {
+    color: var(--dark-brown);
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 95px;
+}
+/*.gallery-img{*/
+    /*height: 343px;*/
+    /*object-fit: contain;*/
+    /*transform: scaleX(1.5);*/
+/*}*/

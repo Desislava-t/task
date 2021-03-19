@@ -3,28 +3,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    font-family: 'Exo 2', sans-serif;
-    background-color: var(--white);
+    font-family: 'Exo 2', sans-serif !important;
+    background-color: var(--white) !important;
+}
+
+
+html {
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 36px !important;
+    font-weight: bold !important;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 26px !important;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 22px !important;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 :root {
@@ -32,4 +38,10 @@ h6 {
     --brown: #90593c;
     --light-brown: #a97b56;
     --white: #ffffff;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1500px !important;
+    }
 }

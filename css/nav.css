@@ -1,0 +1,39 @@
+.nav-content {
+    height: 100px;
+}
+
+.main-nav li > a {
+    color: var(--dark-brown);
+    font-size: 24px;
+    padding-left: 55px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.main-nav li > .home {
+    color: var(--brown);
+}
+
+.main-nav li > .home:hover {
+    color: rgba(144, 89, 60, 0.8);
+}
+
+.main-nav li > a:hover {
+    color: rgba(62, 32, 22, 0.8);
+}
+
+.fb-icon {
+    transition: .3s ease;
+}
+
+.img:hover .fb-icon {
+    opacity: 0.8;
+}
+
+.main-banner-container {
+    padding-top: 100px;
+}
+
+.navbar-nav{
+    background-color: var(--white);
+}

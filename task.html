@@ -7,17 +7,275 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/coffee.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
             crossorigin="anonymous"></script>
+
     <title>Task</title>
 </head>
 <body>
+<!--Nav-->
+<nav class="navbar navbar-expand-md bg-white navbar-light fixed-top nav-content">
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" class="w-100 p-2">
+    </a>
 
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav col-md-auto main-nav mx-auto justify-content-md-center">
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link home" href="#" title="Начало">Начало</a>
+            </li>
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link" href="#">За нас</a>
+            </li>
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link" href="#">Галерия</a>
+            </li>
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link" href="#">Продукти</a>
+            </li>
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link" href="#">Контакти</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav main-nav img">
+            <li class="nav-item">
+                <img src="images/line.png" alt="line">
+                <a class="main-link" href="#">
+                    <img src="images/facebook-f.png" class="fb-icon" alt="facebook">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--./Nav-->
+
+<!--Banner-->
+<div class="main-banner-container">
+    <img src="images/banner.png" alt="banner" class="w-100">
+</div>
+<!--./Banner-->
+
+<!--Coffee-->
+<div class="container text-center">
+    <h1 class="coffee">Кафето</h1>
+    <p class="coffee-story">
+        Ритуалът „пиене на кафе“ в чаша става популярен на Запад благодарение на ботаника Албино Просперо. Връщайки се
+        от Египет през 1570 г., той донася кафе на зърна във Венеция и след като ги изпича, представя силно ароматната
+        тъмна напитка на съгражданите си. Всъщност Венеция е първият италиански град, където е отворено първото кафене,
+        или така нареченият по това време „бар“.
+    </p>
+</div>
+<!--./Coffee-->
+
+<!--Categories-->
+<div class="categories-container">
+
+
+    <div class="container">
+        <h1 class="text-white text-center">Категории</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 img-container">
+                            <img src="images/coffee-cup.png" alt="coffee-cup" class="card-image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="categories-title">Горещи напитки</h3>
+                                <p class="card-text categories-text-style">
+                                    Стандартният отрязък от Lorem Ipsum, използван от 1500 г. насам, е поместен
+                                    по-долу за тези, които се интересуват. Секции 1.10.32 и 1.10.33 от "de Finibus
+                                    Bonorum et
+                                    Malorum" на Цицерон...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 img-container">
+                            <img src="images/glass.png" class="card-image" alt="glass">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="categories-title">Студени напитки</h3>
+                                <p class="card-text categories-text-style">
+                                    Стандартният отрязък от Lorem Ipsum, използван от 1500 г. насам, е поместен по-долу
+                                    за тези, които се интересуват. Секции 1.10.32 и 1.10.33 от "de Finibus Bonorum et
+                                    Malorum" на Цицерон...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 img-container">
+                            <img src="images/food-and-restaurant.png" class="card-image" alt="food-and-restaurant">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="categories-title">Пакетирано кафе</h3>
+                                <p class="card-text categories-text-style">
+                                    Стандартният отрязък от Lorem Ipsum, използван от 1500 г. насам, е поместен по-долу
+                                    за тези, които се интересуват. Секции 1.10.32 и 1.10.33 от "de Finibus Bonorum et
+                                    Malorum" на Цицерон...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 img-container">
+                            <img src="images/cake.png" class="card-image" alt="cake">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="categories-title">Десерти</h3>
+                                <p class="card-text categories-text-style">Стандартният отрязък от Lorem Ipsum,
+                                    използван от 1500 г. насам, е поместен по-долу
+                                    за тези, които се интересуват. Секции 1.10.32 и 1.10.33 от "de Finibus Bonorum et
+                                    Malorum" на Цицерон...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="#" aria-label="button categories">
+            <button type="button" class="categories-btn">разгледай всички снимки</button>
+        </a>
+    </div>
+</div>
+<!--./Categories-->
+
+<!--Gallery-->
+<div class="container">
+    <h1 class="gallery">Галерия</h1>
+    <div class="row">
+        <div class="col">
+            <img src="images/galleryImg1.png" alt="galleryImg1" class="w-100">
+
+
+        </div>
+        <div class="col">
+            <img src="images/galleryImg2crop.png" alt="galleryImg2" class="w-100">
+        </div>
+        <div class="col">
+            <img src="images/galleryImg3.png" alt="galleryImg3" class="w-100">
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="#" aria-label="button categories">
+            <button type="button" class="categories-btn">разгледай всички снимки</button>
+        </a>
+    </div>
+</div>
+<!--./Gallery-->
+
+<!--Contacts-->
+<div class="contact-container">
+    <h1 class="contacts-title">Контакти</h1>
+    <div class="container">
+        <div class="row">
+            <span class="col-sml-6 map">
+            </span>
+            <div class="col-sm-6">
+                <p class="main-contact"><i class="fas fa-map-marker icons"></i> ул. „Дора Габе“ 31, гр.</p>
+                <p class="main-contact"><i class="fas fa-phone icons"></i> 087 123 456</p>
+                <span class="envelop">
+                     <i class="far fa-envelope icons"></i><a href="moccavarba@gmail.com" class="main-contact-mail">moccavarba@gmail.com</a>
+                </span>
+                <p class="text-white contact-information"><i class="far fa-calendar-alt icons"></i>Работно време:</p>
+                <ul class="text-white text-left contact-information">
+
+                    <li>Понеделник</li>
+                    <li>Вторник</li>
+                    <li>Сряда</li>
+                    <li>Четвъртък</li>
+                    <li>Петък</li>
+                    <li>Събота</li>
+                    <li>Неделя</li>
+                </ul>
+
+
+                <ul class="text-white contact-information">
+                    <li>8:00-19:00</li>
+                    <li>8:00-19:00</li>
+                    <li>8:00-19:00</li>
+                    <li>8:00-19:00</li>
+                    <li>8:00-19:00</li>
+                    <li>Затворено</li>
+                    <li>Затворено</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--./Contacts-->
+
+<!--Footer-->
+<footer>
+    <div class="footer-container">
+        <div class="social-media">
+            <a href="#" class="info text-decoration-none">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="info text-decoration-none">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <i class="fas fa-phone info"><span class="info pl-2">0889 800 143</span></i>
+        </div>
+        <div class="rights-reserved">
+            <p class="text-center info">Copyright © 2019 . Всички права запазени.</p>
+        </div>
+        <div class="webStudio">
+            <span class="text-center info">Уеб дизайн :</span>
+            <img src="images/Rocket-Logo.png" alt="Rocket-Logo" class="rocket-logo"></div>
+    </div>
+    <!--</footer>-->
+
+
+</footer>
+
+<!--./Footer-->
 </body>
 </html>
