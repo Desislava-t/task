@@ -12,5 +12,8 @@
     .col-sm-6 {
         flex: 100% !important;
         max-width: 100% !important;
+        justify-content: center;
+        display: inline-grid;
+        margin-top: 4em;
     }
 }
