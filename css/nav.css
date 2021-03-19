@@ -34,6 +34,27 @@
     padding-top: 100px;
 }
 
-.navbar-nav{
+.navbar-nav {
     background-color: var(--white);
+}
+
+.logo {
+    width: 100%;
+}
+
+@media only screen and (max-width: 380px) {
+    .logo {
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .logo {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .logo {
+        width: 170px;
+    }
 }
