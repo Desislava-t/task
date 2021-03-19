@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: var(--white);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+:root {
+    --dark-brown: #3e2016;
+    --brown: #90593c;
+    --light-brown: #a97b56;
+    --white: #ffffff;
+}
